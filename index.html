@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Si</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Cambiando p</h1>
+    <form onsubmit="changeP(event)">
+        <input type="text" name="name" placeholder="Ej: background-color, font-size, etc.">
+        <input type="text" name="val" placeholder="Ej: #fff, sans-serif, etc.">
+        <input type="submit" value="Cambiar">
+    </form>
+    <pre onload="changeDesc"></pre>
+    <p style="border: 1px solid #000; padding: 30px; border-radius: 10px;">Hola!</p>
+</body>
+<script src="main.js"></script>
+</html>
